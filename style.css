@@ -11,14 +11,29 @@ body {
 }
 
 header,
+form button,
 footer {
     background-color: #9e0762;
     color: #f1f2f2;
     font-family: "Neuton", serif;
     font-weight: normal;
-
 }
 
+.containeropinion h3,
+.containeropinion  h4 {
+    font-family: "Neuton", serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.containeropinion h3 {
+    background-color: #9e0762;
+    color: #f1f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+}
 header {
     display: flex;
     align-items: center;
@@ -45,10 +60,11 @@ body {
 a {
     text-decoration: none;
 }
+
 p .linkprojeto,
-.mystudies a:hover{
-  color: rgb(154, 145, 187);
-  text-decoration: underline;
+.mystudies a:hover {
+    color: rgb(154, 145, 187);
+    text-decoration: underline;
 }
 
 .container {
@@ -113,6 +129,34 @@ p {
     margin: 3px, 0;
     font-weight: normal;
 }
+
+.container .containeropinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    justify-content: space-between;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+
+form button {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
 
 footer {
     position: ;
