@@ -157,6 +157,9 @@ form button {
     padding: 8px;
 }
 
+form textarea {
+    resize: none
+}
 
 footer {
     position: ;
